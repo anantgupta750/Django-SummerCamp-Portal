@@ -1,0 +1,28 @@
+label
+{
+    font-size: 30px;
+    font-family: Tahoma;
+    text-align: center;
+}
+input
+{
+    width: 55%;
+    font-size: 30px;
+    font-family: Tahoma;  
+}
+textarea
+{
+    width: 55%;
+    height: 110px;
+    font-size: 30px ;
+    font-family: Tahoma;
+}
+button
+{
+    font-size: 25px;
+    text-align: center; 
+}
+small{
+    font-family: Tahoma;
+    font-weight: bold;
+}

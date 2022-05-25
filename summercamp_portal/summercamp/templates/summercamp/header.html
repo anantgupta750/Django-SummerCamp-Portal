@@ -1,0 +1,65 @@
+<style>
+    .nav-link
+    {
+        color:darkred!important;
+        font-family: Tahoma;
+        font-size: 28px;
+    }
+
+    .navbar-brand
+    {
+        color:darkred!important;
+        font-family: Tahoma;
+        font-size: 34px;  
+    }
+    .dropdown-item
+        {
+            color:darkred!important;
+            font-family: Tahoma;
+            font-size: 22px;
+        }
+
+
+    @font-face {
+        font-family: 'customfont';
+        src: url"(% static 'summercamp/fonts' %)";
+    }
+</style>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-info ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" >SummerCampPortal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{'/'}}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{'contact'}}">ContactUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{'feedback'}}">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{'registration'}}">Registration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{'login'}}">login</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  View
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="{{'viewprograms'}}">Program Details</a></li>
+                  <li><a class="dropdown-item" href="{{'viewevents'}}">CityEvent Management</a></li>
+                  <li><a class="dropdown-item" href="{{'viewjobs'}}">Camp Employement Vacancies</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
